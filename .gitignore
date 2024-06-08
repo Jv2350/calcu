@@ -3,4 +3,8 @@ gui/calculator_gui copy.py
 gui/calculator_ui.py
 tempCodeRunnerFile.python
 gui/__pycache__
+other/Password Generator/gui/pas.css
+other/Password Generator/gui/password_generator_ui.py
+other/Password Generator/__pycache__
+other/Password Generator/gui/__pycache__
 .vscode
