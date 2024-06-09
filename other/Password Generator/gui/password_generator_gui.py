@@ -50,7 +50,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(700, 213)
+        MainWindow.resize(600, 213)
         MainWindow.setMaximumSize(QSize(700, 213))
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -112,7 +112,7 @@ class Ui_MainWindow(object):
         self.spinBox_length.setObjectName("spinBox_length")
         self.spinBox_length.setAlignment(Qt.AlignCenter)
         self.spinBox_length.setButtonSymbols(QAbstractSpinBox.NoButtons)
-        self.spinBox_length.setMaximum(100)
+        self.spinBox_length.setMaximum(1000)
         self.spinBox_length.setValue(12)
 
         self.horizontalLayout_2.addWidget(self.spinBox_length)
